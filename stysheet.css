@@ -1,10 +1,10 @@
 body {
-    background-color: #202020;
+    background-color: #f0e68c;
 }
 
 h1 {
     text-align: center;
-    color: #d3d3d3;
+    color: #555555;
     margin-top: 100px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -14,15 +14,15 @@ h1 {
     margin: 0 auto;
     margin-top: 20px;
     width: 400px;
-    box-shadow: 0 4px 10px 2px #393939,
-        0 5px 20px 5px #393939,
-        0 10px 30px 10px #393939;
+    box-shadow: 0 4px 10px 2px #cec678,
+        0 5px 20px 5px #cec678,
+        0 10px 30px 10px #cec678;
 }
 
 .calculator-screen {
     width: 100%;
     height: 100px;
-    background-color: #d3d3d3;
+    background-color: #f3f3f3;
     color: #202020;
     text-align: right;
     font-size: 42px;
@@ -59,18 +59,23 @@ button {
 }
 
 .operator {
-    background-color: #008eda;
+    background-color: #f4e660;
+    color: #555555;
+    font-weight: bold;
 }
 
 .equal-sign {
     background-color: #ff0059
 }
 
-button :hover::after {
-    opacity: 100%;
+button:hover {
+    background-color: #454545;
 }
 
-.operator :hover,
-.equal-sign :hover {
-    opacity: 50%;
+.operator:hover {
+    background-color: #d8cb55;
+}
+
+.equal-sign:hover {
+    background-color: #e80152;
 }
